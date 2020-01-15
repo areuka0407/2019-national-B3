@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+#hold-info-img {
+    height: 500px;
+    background-image: url(../images/hold-info.jpg);
+    background-size: cover;
+    background-position: center 50%;
+    box-shadow: 0 0 10px 8px #00000030;
+    margin: 20px 0 80px;
+}
+
+@media(max-width: 768px){
+    #hold-info-img {
+        height: 100px;
+    }
+
+    #hold-info-contents {
+        order: 1;
+    }
+}

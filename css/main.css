@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+
+/* Biff 2019
+ */
+
+ #biff-2019-img {
+    background-image: url(../images/biff2019.jpg);
+    background-size: auto 100%;
+    background-position: 80% 50%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+    margin-top: -170px;
+}
+
+
+
+@media(max-width: 992px){
+    #biff-2019-img {
+        margin-top: 0;
+        height: 100px;
+    }
+    
+    #biff-2019-section {
+        order: 1;
+    }
+}
+
+
+#biff-news .row {
+    box-shadow: 0 0 10px 6px #00000010;
+}
+
+#biff-news .image {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    background-position: center 50%;
+    box-shadow: 0 0 10px 5px #00000020;
+    overflow: hidden;
+}
+
+#biff-news .img-1 { background-image: url(../images/news1.jpg) }
+#biff-news .img-2 { background-image: url(../images/news2.jpg) }
+#biff-news .img-3 { background-image: url(../images/news3.jpg) }
+#biff-news .img-4 { background-image: url(../images/news4.jpg) }
+
+
+#biff-news .text {
+    position: absolute;
+    left: 0;
+    bottom: -150px;
+    opacity: 0;
+    width: 100%;
+    height: 150px;
+    padding: 30px 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 0.5s;
+}
+
+#biff-news .text b { font-size: 1.2em; }
+#biff-news .text * { font-weight: bold; }
+
+#biff-news .image:hover .text {
+    transition: bottom 0.3s, opacity 0.3s;
+    bottom: 0;
+    opacity: 1;
+}

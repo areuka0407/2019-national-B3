@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BIFF2019 | 부산국제영화제</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/common.css">
+
+    <link rel="stylesheet" href="css/hold-info.css">
+</head>
+<body>
+    <input type="checkbox" hidden id="aside-key">
+    <div id="visual" class="sub">
+        <div class="images">
+            <div class="item image-1"></div>
+            <div class="item image-2"></div>
+            <div class="item image-3"></div>
+            <div class="item image-1"></div>
+            <div class="black-out"></div>
+        </div>
+        <header>
+            <div class="inline py-3 d-flex">
+                <a href="index.html"><img src="images/Hlogo.png" alt="#" class="logo" height="55"></a>
+                <div id="main-nav" class="mt-3">
+                    <div class="item active">
+                        <a href="index.html">
+                            부산국제영화제
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg>
+                        </a>
+                        <div class="list list-1">
+                            <div class="item"><a href="sub1.html">개최개요</a></div>
+                            <div class="item"><a href="sub2.html">행사안내</a></div>
+                        </div>
+                    </div>
+                    <div class="item"><a href="#">출품신청</a></div>
+                    <div class="item"><a href="#">상영일정</a></div>
+                    <div class="item"><a href="#">상영작검색</a></div>
+                    <div class="item">
+                        <a href="#">
+                            이벤트
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg>
+                        </a>
+                        <div class="list list-2">
+                            <div class="item"><a href="#">영화티저 콘테스트</a></div>
+                            <div class="item"><a href="participate.html">콘테스트 참여하기</a></div>
+                        </div>
+                    </div>       
+                    <div class="active-item"></div>             
+                </div>
+                <div id="sub-nav" class="mt-3">
+                    <div class="item">
+                        <a href="#">로그인</a>
+                    </div>
+                    <div class="item">
+                        <a href="#">로그아웃</a>
+                    </div>
+                </div>
+                <label id="hamberger" for="aside-key">
+                    <span class="rect-1"></span>
+                    <span class="rect-2"></span>
+                    <span class="rect-3"></span>
+                </label>
+            </div>
+        </header>
+    </div>
+    <aside>
+        <div class="list d-flex flex-column px-4">
+            <div class="item">
+                <a href="index.html">
+                    부산국제영화제
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg>
+                </a>
+                <div class="sub-list ml-3 mt-2">
+                    <div class="item mt-3"><a href="sub1.html">개최개요</a></div>
+                    <div class="item mt-3"><a href="sub2.html">행사안내</a></div>
+                </div>
+            </div>
+            <div class="item mt-3"><a href="#">출품신청</a></div>
+            <div class="item mt-3"><a href="#">상영일정</a></div>
+            <div class="item mt-3"><a href="#">상영작검색</a></div>
+            <div class="item mt-3">
+                <a href="#">
+                    이벤트
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg>
+                </a>
+                <div class="sub-list ml-3 mt-2">
+                    <div class="item mt-3"><a href="#">영화티저 콘테스트</a></div>
+                    <div class="item mt-3"><a href="participate.html">콘테스트 참여하기</a></div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <div class="container">
+        <div class="padding">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-7 col-sm-12">
+                    <div class="section-header">
+                        <h5>개최 개요</h5>
+                        <h1>HOLD INFO</h1>
+                    </div>
+                </div>
+                <div id="hold-info-contents" class="col-sm-12 col-md-6">
+                    <h4>제23회 부산국제영화제 개요</h4>
+                    <p class="d-block mt-4">2019년 10월 3일, 아시아 최대의 영화 축제 부산국제영화제 개막!</p>
+                    <table class="table mt-5">
+                        <tbody>
+                            <tr>
+                                <td>명칭</td>
+                                <td>부산국제영화제</td>
+                            </tr>
+                            <tr>
+                                <td>성격</td>
+                                <td>비경쟁영화제</td>
+                            </tr>
+                            <tr>
+                                <td>개최기간</td>
+                                <td>2019년 10월 3일(목)~12일(토), 10일간</td>
+                            </tr>
+                            <tr>
+                                <td>개최장소</td>
+                                <td>영화의 전당, 해운대 일대</td>
+                            </tr>
+                            <tr>
+                                <td>상영관수</td>
+                                <td>약 30개관 내외</td>
+                            </tr>
+                            <tr>
+                                <td>상영작품수</td>
+                                <td>약 70개국 300여 편</td>
+                            </tr>
+                            <tr>
+                                <td>참여게스트</td>
+                                <td>약 70개국 1만여 명</td>
+                            </tr>
+                            <tr>
+                                <td>관람객수</td>
+                                <td>약 20만 명</td>
+                            </tr>
+                            <tr>
+                                <td>주최</td>
+                                <td>(사)부산국제영화제</td>
+                            </tr>
+                            <tr>
+                                <td>후원</td>
+                                <td>문화체육관광부, 부산광역시</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="hold-info-img" class="col-md-5 col-sm-12"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-4 mb-2 d-flex justify-content-center align-items-center">
+                    <span class="design-circle"></span>
+                    <span class="design-circle active"></span>
+                    <span class="design-circle"></span>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4 mr-md-4">
+                <div class="col-md-8 col-sm-12 d-flex justify-content-between align-items-center">
+                    <a href="#" class="text-white font-weight-bold">부산국제영화제</a>
+                    <a href="#" class="text-white font-weight-bold">출품신청</a>
+                    <a href="#" class="text-white font-weight-bold">상영일정</a>
+                    <a href="#" class="text-white font-weight-bold">상영작검색</a>
+                    <a href="#" class="text-white font-weight-bold">이벤트</a>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-6 d-flex flex-column">
+                    <div class="item">
+                        <b>부산사무국(48058)</b>
+                        <p class="mt-3 mb-1">부산시 해운대구 수영강변대로 120 영화의전당 비프힐 3층</p>
+                        <p>지도전화 1688-3010  팩스 051-709-2299</p>
+                    </div>
+                    <div class="item mt-2">
+                        <b>서울사무소(03131)</b>
+                        <p class="mt-3 mb-1">서울특별시 종로구 율곡로 84 가든타워 1601호</p class="mt-3">
+                        <p>지도전화 02-3675-5097  팩스 02-3675-5098</p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-row-reverse align-items-end mt-4 justify-content-center">
+                    <img src="images/sns_i_facebook.png" alt="sns-icon" width="60" height="60" class="sns-icon mx-2">
+                    <img src="images/sns_i_instagram.png" alt="sns-icon" width="60" height="60" class="sns-icon mx-2">
+                    <img src="images/sns_i_link.png" alt="sns-icon" width="60" height="60" class="sns-icon mx-2">
+                    <img src="images/sns_i_twitter.png" alt="sns-icon" width="60" height="60" class="sns-icon mx-2">
+                    <img src="images/sns_i_youtube.png" alt="sns-icon" width="60" height="60" class="sns-icon mx-2">
+                </div>
+            </div>
+        </div>
+        <div id="copyright">
+            <p class="text-center text-white font-weight-bold">ⓒ Busan International Film Festival</p>
+        </div>
+    </footer>
+</body>
+</html>
